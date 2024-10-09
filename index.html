@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<section style="display: flex; width: 100%; justify-content: center; gap: 4rem;">
+		<article>
+			<h2>日本語</h2>
+			<textarea id="ja-input" style="width: 300px; height: 100px;">こんにちは、これは音声読み上げのテストです。</textarea>
+			<div>
+				<select id="ja-voice-select">
+				</select>
+				<button onclick="speakJapanese()">Speak</button>
+			</div>
+		</article>
+		<article>
+			<h2>英語</h2>
+			<textarea id="en-input" style="width: 300px; height: 100px;"> </textarea>
+			<div>
+				<select id="en-voice-select">
+				</select>
+				<button onclick="speakEnglish()">Speak</button>
+			</div>
+		</article>
+
+	</section>
+	<script src="main.js"></script>
+</body>
+
+</html>
